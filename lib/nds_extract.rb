@@ -20,9 +20,6 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   #pp nds
   result = {}
-  director_name = 0
-  movie_index = 0
-  gross_total = 0
   nds.each do |director|
     #pp director
     #pp director[:movies][movie_index][:worldwide_gross]
